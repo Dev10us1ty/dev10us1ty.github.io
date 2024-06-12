@@ -46,7 +46,7 @@ function typingEffect(text, element) {
     } else {
       clearInterval(interval);
     }
-  }, 100);
+  }, 200); // added 100ms delay
 }
 
 // Select all elements with the class "typing-effect"
@@ -55,8 +55,11 @@ const typingElements = document.querySelectorAll('.typing-effect');
 // Apply the typing effect to each element
 typingElements.forEach((element) => {
   const text = element.getAttribute('data-text');
-  typingEffect(text, element);
+  setTimeout(() => { // added 100ms delay
+    typingEffect(text, element);
+  }, 100);
 });
+
 
 
 //---
