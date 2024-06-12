@@ -1,0 +1,28 @@
+{
+  "background_color": "#101d29",
+  "description": "Dev10us",
+  "dir": "ltr",
+  "display": "fullscreen",
+  "name": "Dev10us",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Dev10uSite",
+  "start_url": "/",
+  "theme_color": "#101d29",
+  "icons": [
+    {
+      "src": "https://dev10us1ty.github.io/assets/favicon.png",
+      "type": "image/png",
+      "sizes": "1476x1476"
+    }
+  ],
+  "id": "Dev10us",
+  "display_override": [
+    "fullscreen",
+    "standalone",
+    "minimal-ui",
+    "window-controls-overlay",
+    "browser"
+  ],
+  "lang": "en"
+}
