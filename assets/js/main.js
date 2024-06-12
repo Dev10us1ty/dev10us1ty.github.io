@@ -1,5 +1,19 @@
+//main.js
+
+
+
+//---
+
+
 //load-in.js
-// Add the "loaded" class to the body element after the page finishes loading
-window.onload = function () {
-  document.body.classList.add("loaded");
-}
+
+
+// Get all elements with the class "element"
+const elements = document.querySelectorAll('.element');
+
+// Add a loaded class to each element with a delay
+elements.forEach((element, index) => {
+  setTimeout(() => {
+    element.classList.add('loaded');
+  }, index * 100); // Add a delay of 100ms for each element
+});
