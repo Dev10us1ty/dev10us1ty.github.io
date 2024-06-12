@@ -2,6 +2,14 @@ html {
   background-color: #101d29;
 }
 
+body {
+  overflow: hidden; /* Hide the content until the animation is complete */
+}
+
+.loaded body {
+  overflow: visible; /* Show the content when the animation is complete */
+}
+
 * {
   opacity: 0; /* Initial opacity is 0 */
   transition: opacity 0.5s; /* Transition effect */
