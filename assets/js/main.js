@@ -15,5 +15,5 @@ const elements = document.querySelectorAll('*');
 elements.forEach((element, index) => {
   setTimeout(() => {
     element.classList.add('loaded');
-  }, index * 100); // Add a delay of 100ms for each element
+  }, index * 70); // Add a delay of 100ms for each element
 });
