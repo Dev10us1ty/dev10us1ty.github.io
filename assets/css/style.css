@@ -2,15 +2,13 @@ html {
   background-color: #101d29;
 }
 
-body {
+* {
   opacity: 0; /* Initial opacity is 0 */
-  transform: scale(0.9); /* Initial scale is 0.9 */
-  transition: opacity 0.5s, transform 0.5s; /* Transition effect */
+  transition: opacity 0.5s; /* Transition effect */
 }
 
-body.loaded {
+.loaded {
   opacity: 1; /* Final opacity is 1 */
-  transform: scale(1); /* Final scale is 1 */
 }
 
 p {
