@@ -8,8 +8,8 @@
 //load-in.js
 
 
-// Get all elements with the class "element"
-const elements = document.querySelectorAll('.element');
+// Get all elements on the page
+const elements = document.querySelectorAll('*');
 
 // Add a loaded class to each element with a delay
 elements.forEach((element, index) => {
