@@ -8,6 +8,17 @@ p {
   color: #c8d3e6;
 }
 
+a {
+  font-family: "Silkscreen";
+  weight: 400;
+  color: #8cc8ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a3d3ff;
+}
+
 h1 {
   font-family: "Silkscreen";
   color: #e0ecff;
@@ -26,4 +37,11 @@ h3 {
 h4 {
   font-family: "Silkscreen";
   color: #e0ecff;
+}
+
+hr {
+  border: none;
+  border-bottom: 5px dotted #e0ecff; /* very light gray color */
+  max-width: 100%;
+  overflow: hidden;
 }
