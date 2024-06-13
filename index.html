@@ -18,15 +18,16 @@ title: Dev10us
 .project {
   margin: 0 auto;
   text-align: center;
-  background: linear-gradient(#fff, #f7f7f7);
+  background: #636d7d;
   border: 1px solid #ddd;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   border-radius: 10px;
+  filter: pixilate(4px);
   width: 80%;
 }
 
-.project::before {
+/*.project::before {
   content: "";
   position: absolute;
   top: 0;
@@ -35,7 +36,7 @@ title: Dev10us
   height: 100%;
   border-left: 10px solid #ddd;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+}*/
 
 .project:hover {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
