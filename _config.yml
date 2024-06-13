@@ -1,3 +1,5 @@
 title: Dev10us
 description: Portfolio Website
 baseurl: dev10us1ty.github.io
+plugins:
+ - jekyll-sitemap
